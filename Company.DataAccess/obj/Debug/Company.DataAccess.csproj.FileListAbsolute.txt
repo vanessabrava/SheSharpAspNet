@@ -1,0 +1,15 @@
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\Company.DataAccess.dll.config
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\Company.DataAccess.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\Company.DataAccess.pdb
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\DevSturdy.Toolkit.DataAccess.EntityFramework.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\EntityFramework.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\EntityFramework.xml
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\obj\Debug\Company.DataAccess.csprojAssemblyReference.cache
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\obj\Debug\Company.DataAccess.csproj.CopyComplete
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\obj\Debug\Company.DataAccess.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\obj\Debug\Company.DataAccess.pdb
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\Company.Business.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\DevSturdy.Validations.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.DataAccess\bin\Debug\Company.Business.pdb

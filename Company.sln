@@ -9,13 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application Layer", "2. 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain Layer", "3. Domain Layer", "{A8548DDE-12A2-493F-92D7-AD1E2311FD5E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Data Layer", "4. Data Layer", "{2827D8BA-1CB0-4E0D-B9C3-5EC1204D30C6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure Layer", "4. Infrastructure Layer", "{2827D8BA-1CB0-4E0D-B9C3-5EC1204D30C6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Cross Cutting Layer", "5. Cross Cutting Layer", "{B3D78FE1-CC93-451C-A3DE-5A26F4A72498}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Cross Cutting Layer", "2. Cross Cutting Layer", "{B3D78FE1-CC93-451C-A3DE-5A26F4A72498}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Tester Layer", "6. Tester Layer", "{5647B06E-E26D-46F0-87BC-1A6FE5B2B288}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tester Layer", "5. Tester Layer", "{5647B06E-E26D-46F0-87BC-1A6FE5B2B288}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Host.Web", "Company.Host.Web\Company.Host.Web.csproj", "{A5464809-6CE2-43D4-84EC-C0EF951F6DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Data", "1.Data", "{6CB90527-AC86-40A9-9B20-4A071A693C91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DataAccess.EntityFramework", "Company.DataAccess.EntityFramework\Company.DataAccess.EntityFramework.csproj", "{0EC6E7FF-B6C0-4343-8C8A-B3DE82E9423C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.DataAccess", "Company.DataAccess\Company.DataAccess.csproj", "{2C19D513-438D-4079-9D2B-CBF081E2A705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Business", "Company.Business\Company.Business.csproj", "{AB854EE9-9B5E-4DAD-833E-32EC82DDFBDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,12 +35,29 @@ Global
 		{A5464809-6CE2-43D4-84EC-C0EF951F6DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5464809-6CE2-43D4-84EC-C0EF951F6DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5464809-6CE2-43D4-84EC-C0EF951F6DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC6E7FF-B6C0-4343-8C8A-B3DE82E9423C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC6E7FF-B6C0-4343-8C8A-B3DE82E9423C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC6E7FF-B6C0-4343-8C8A-B3DE82E9423C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC6E7FF-B6C0-4343-8C8A-B3DE82E9423C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C19D513-438D-4079-9D2B-CBF081E2A705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C19D513-438D-4079-9D2B-CBF081E2A705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C19D513-438D-4079-9D2B-CBF081E2A705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C19D513-438D-4079-9D2B-CBF081E2A705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB854EE9-9B5E-4DAD-833E-32EC82DDFBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB854EE9-9B5E-4DAD-833E-32EC82DDFBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB854EE9-9B5E-4DAD-833E-32EC82DDFBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB854EE9-9B5E-4DAD-833E-32EC82DDFBDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{B3D78FE1-CC93-451C-A3DE-5A26F4A72498} = {2827D8BA-1CB0-4E0D-B9C3-5EC1204D30C6}
 		{A5464809-6CE2-43D4-84EC-C0EF951F6DC0} = {FA90935C-F656-48A9-8DB1-D4FAE1058473}
+		{6CB90527-AC86-40A9-9B20-4A071A693C91} = {2827D8BA-1CB0-4E0D-B9C3-5EC1204D30C6}
+		{0EC6E7FF-B6C0-4343-8C8A-B3DE82E9423C} = {6CB90527-AC86-40A9-9B20-4A071A693C91}
+		{2C19D513-438D-4079-9D2B-CBF081E2A705} = {6CB90527-AC86-40A9-9B20-4A071A693C91}
+		{AB854EE9-9B5E-4DAD-833E-32EC82DDFBDE} = {A8548DDE-12A2-493F-92D7-AD1E2311FD5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0645CAEC-0A52-4357-9FB9-C97D206764EE}

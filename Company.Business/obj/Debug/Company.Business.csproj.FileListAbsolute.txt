@@ -1,0 +1,9 @@
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\bin\Debug\Company.Business.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\bin\Debug\Company.Business.pdb
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\bin\Debug\DevSturdy.Toolkit.Cryptography.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\bin\Debug\DevSturdy.Toolkit.Extension.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\bin\Debug\DevSturdy.Validations.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\obj\Debug\Company.Business.csprojAssemblyReference.cache
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\obj\Debug\Company.Business.csproj.CopyComplete
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\obj\Debug\Company.Business.dll
+C:\Projetos\SheSharp\AspNet\Company\Company.Business\obj\Debug\Company.Business.pdb
